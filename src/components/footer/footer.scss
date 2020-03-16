@@ -1,0 +1,18 @@
+.footer {
+	height: 234px;
+	@screen lg {
+		height: 106px;
+	}
+
+	&__ocp_logo {
+		height: 157px;
+		width: 147px;
+		border-radius: 24px;
+		margin-top: -44px;
+		@screen lg {
+			border-top-left-radius: 24px;
+			border-top-right-radius: 24px;
+			margin-top: -52px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.capsules {
+	background: url("https://i.ibb.co/0Ysc1j4/Background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+	background-color: #353636;
+	&__container {
+		max-width: 1000px;
+		margin: auto;
+	}
+	.vertical-border {
+		width: 2px;
+		height: 60px;
+		color: white;
+		margin: auto;
+		background-color: white;
+	}
+	.horizontal-border {
+		height: 1.99px;
+		width: 25px;
+		background-color: #dce0e1;
+		color: white;
+		margin: auto;
+		margin-top: 13px;
+		margin-bottom: 49px;
+	}
+	.small-horizontal-border {
+		height: 1.38px;
+		width: 17.21px;
+		background-color: #ffffff;
+		margin-top: 12.5px;
+		margin-bottom: 36px;
+	}
+}

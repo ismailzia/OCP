@@ -1,0 +1,53 @@
+<header class="relative">
+    <div class="z-20 absolute w-full md:flex md:justify-between md:px-4 md:py-3">
+        <div class="flex  px-4 py-3 md:p-0">
+            <div class="md:hidden">
+                <button id="js-burger-menu__button" type="button" class="burger-remove-icons">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path id="remove-icon" class="hidden" fill-rule="evenodd"
+                            d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+                        <path id="burger-icon" class="block" fill-rule="evenodd"
+                            d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/TqzWSxR/OCP-LOGO-OCP-100-VF-191217.png" alt="" class="logo_ocp">
+            </div>
+        </div>
+        <nav class="nav-elements px-2 pt-2 pb-4 md:flex md:p-0 hidden">
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline" href="#">DID
+                YOU
+                KNOW</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline"
+                href="#">CAPSULES</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline" href="#">100S
+                POUR
+                TEMOINER</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline"
+                href="#">EVENEMENTS</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline">FR-AR-EN</a>
+
+        </nav>
+    </div>
+    <!-- background video -->
+    <div class="z-60">
+
+        <video autoplay id="myVideo">
+            <source src="../../src/assets/Spot Centenaire OCP DEF HQ.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+        </video>
+
+        <div class="replay absolute text-white js__replay-video hidden">
+            <p class="font-fs-lola-medium bg-black-lighter cursor-pointer">Replay the video
+                <img src="https://i.ibb.co/jh7C1sT/replay.png" alt="replay" class="" /></p>
+        </div>
+        <div class="click-to-descover js__discover-button hidden">
+            <div class="text-center">
+                <img src="https://i.ibb.co/4d7rSgV/click.png" alt="click">
+                <p>DISCOVER OUR ADVENTURE</p>
+            </div>
+        </div>
+        <div class="bg-click-to-descover js__discover-button hidden"></div>
+    </div>
+</header>

@@ -1,0 +1,98 @@
+header {
+	height: 587px;
+	background-color: #353636;
+	@screen lg {
+		height: 768px;
+	}
+	.nav-elements {
+		margin-top: 23px;
+		a {
+			margin: 0 20px;
+		}
+	}
+}
+
+.logo_ocp {
+	width: 62px;
+	height: 46px;
+	margin-top: 18px;
+	margin-left: 30px;
+	@screen lg {
+		width: 89px;
+		height: 56px;
+		margin-top: 21px;
+		margin-left: 32px;
+	}
+}
+.burger-remove-icons {
+	margin: 32px 0 0 22px;
+
+	color: #d8d8d8;
+}
+.replay {
+	top: 339px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-family: "FS Lola Medium";
+	@screen lg {
+		top: 376px;
+	}
+}
+.click-to-descover {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 184px;
+	width: 184px;
+	background-color: #ffffff;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.34);
+	border-radius: 50%;
+	z-index: 3;
+	@screen lg {
+		top: 510px;
+		transform: translate(-50%, 0%);
+	}
+	.text-center {
+		img {
+			padding: 30px 0 15px 0;
+		}
+	}
+	p {
+		font-weight: bold;
+		background: linear-gradient(
+			206.57deg,
+			#8ac63f 0%,
+			#7ab3ab 48.79%,
+			#6cabdd 100%
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+.bg-click-to-descover {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 224px;
+	width: 224px;
+	opacity: 0.21;
+	background-color: #ffffff;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.34);
+	border-radius: 50%;
+	@screen lg {
+		top: 490px;
+		transform: translate(-50%, 0%);
+	}
+}
+// video {
+// 	position: absolute;
+// 	top: 50%;
+// 	transform: translate(0, -50%);
+// 	@screen md {
+// 		position: relative;
+// 		top: 0;
+// 		transform: translate(0, 0);
+// 	}
+// }

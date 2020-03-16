@@ -1,0 +1,12 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+@import "./materials/materials.scss";
+@import "../components/header/header";
+@import "../components/navBar/navBar";
+@import "../components/didYouKnow/didYouKnow";
+@import "../components/capsules/capsules";
+@import "../components/testify/testify";
+@import "../components/nextEvent/nextEvent";
+@import "../components/footer/footer";

@@ -1,0 +1,480 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>OCP</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+		integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+		integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+<header class="relative">
+    <div class="z-20 absolute w-full md:flex md:justify-between md:px-4 md:py-3">
+        <div class="flex  px-4 py-3 md:p-0">
+            <div class="md:hidden">
+                <button id="js-burger-menu__button" type="button" class="burger-remove-icons">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path id="remove-icon" class="hidden" fill-rule="evenodd"
+                            d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+                        <path id="burger-icon" class="block" fill-rule="evenodd"
+                            d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/TqzWSxR/OCP-LOGO-OCP-100-VF-191217.png" alt="" class="logo_ocp">
+            </div>
+        </div>
+        <nav class="nav-elements px-2 pt-2 pb-4 md:flex md:p-0 hidden">
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline" href="#">DID
+                YOU
+                KNOW</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline"
+                href="#">CAPSULES</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline" href="#">100S
+                POUR
+                TEMOINER</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline"
+                href="#">EVENEMENTS</a>
+            <a class="nav-element mx-4 md:inline-block block font-fs-lola-medium text-white no-underline">FR-AR-EN</a>
+
+        </nav>
+    </div>
+    <!-- background video -->
+    <div class="z-60">
+
+        <video autoplay id="myVideo">
+            <source src="../../src/assets/Spot Centenaire OCP DEF HQ.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+        </video>
+
+        <div class="replay absolute text-white js__replay-video hidden">
+            <p class="font-fs-lola-medium bg-black-lighter cursor-pointer">Replay the video
+                <img src="https://i.ibb.co/jh7C1sT/replay.png" alt="replay" class="" /></p>
+        </div>
+        <div class="click-to-descover js__discover-button hidden">
+            <div class="text-center">
+                <img src="https://i.ibb.co/4d7rSgV/click.png" alt="click">
+                <p>DISCOVER OUR ADVENTURE</p>
+            </div>
+        </div>
+        <div class="bg-click-to-descover js__discover-button hidden"></div>
+    </div>
+</header>
+
+<section class="didYouKnow">
+    <div class="container mx-auto">
+        <!-- vertical border -->
+        <div class="vertical-border"></div>
+
+        <div class="font-fs-lola-bold text-center text-white">
+            <p class="text-12 pb-14 pt-8 uppercase">DID YO KNOW</p>
+            <p class="font-fs-lola-bold text-30 lg:text-40">McSweeney's <br class="block md:hidden"> Williamsburg,<br>
+                readymade leggings try-hard <br class="hidde md:block">
+                90's street art</p>
+        </div>
+        <!-- horizontal border -->
+        <div class="horizontal-border"></div>
+
+        <!-- small devices -->
+        <div class="lg:hidden">
+
+            <div class="img-text-container flex flex-col md:flex-row lg:container">
+                <div class="flex-1 text-center px-20 pb-36">
+                    <img src="https://i.ibb.co/mGZSLfd/Bitmap-1.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-420 lg:-mt-57" alt="..">
+                    <p class="text-16 text-left text-white w-full my-10 leading-23 lg:hidden">Keytar McSweeney's
+                        Williamsburg,
+                        readymade
+                        leggings
+                        try-hard
+                        90's street art letterpress hoodie occupy Wes Anderson Banksy.</p>
+                </div>
+                <div class="flex-1 text-center px-20 pb-36">
+                    <img src="https://i.ibb.co/mXRCGPZ/Bitmap-2.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-363" alt="..">
+                    <p class="text-16 text-left text-white w-full my-10 leading-23 lg:hidden">Keytar McSweeney's
+                        Williamsburg,
+                        readymade
+                        leggings
+                        try-hard
+                        90's street art letterpress hoodie occupy Wes Anderson Banksy.</p>
+                </div>
+                <div class="flex-1 text-center px-20 pb-36">
+                    <img src="https://i.ibb.co/c6J455L/Bitmap-3.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-420 lg:-mt-57" alt="..">
+                    <p class="text-16 text-left text-white w-full my-10 leading-23 lg:hidden">Keytar McSweeney's
+                        Williamsburg,
+                        readymade
+                        leggings
+                        try-hard
+                        90's street art letterpress hoodie occupy Wes Anderson Banksy.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- large devices -->
+        <div class="hidden lg:block">
+            <div class="img-text-container flex flex-col md:flex-row lg:container">
+                <div class="container-div flex-1 text-center px-20 pb-36 relative">
+                    <img src="https://i.ibb.co/mGZSLfd/Bitmap-1.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-363" alt="..">
+                    <div class="middle-div text-16 text-left text-white">
+                        <!-- vertical border -->
+                        <div class="vertical-border"></div>
+                        <h2 class="mt-14 mb-21">DID YOU KNOW </h2>
+                        <p class="text-16 font-fs-lola-medium leading-20 ">Keytar McSweeney's Williamsburg, readymade
+                            leggings try-hard 90's street art letterpress
+                            hoodie occupy Wes Anderson Banksy.</p>
+                    </div>
+                </div>
+                <div class="container-div flex-1 text-center px-20 pb-36 relative">
+                    <img src="https://i.ibb.co/mXRCGPZ/Bitmap-2.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-420" alt="..">
+                    <div class="middle-div text-16 text-left text-white">
+                        <!-- vertical border -->
+                        <div class="vertical-border"></div>
+                        <h2 class="mt-14 mb-21">DID YOU KNOW </h2>
+                        <p class="text-16 font-fs-lola-medium leading-20 ">Keytar McSweeney's Williamsburg, readymade
+                            leggings try-hard 90's street art letterpress
+                            hoodie occupy Wes Anderson Banksy.</p>
+                    </div>
+                </div>
+                <div class="container-div flex-1 text-center px-20 pb-36 relative">
+                    <img src="https://i.ibb.co/c6J455L/Bitmap-3.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-363" alt="..">
+                    <div class="middle-div text-16 text-left text-white">
+                        <!-- vertical border -->
+                        <div class="vertical-border"></div>
+                        <h2 class="mt-14 mb-21">DID YOU KNOW </h2>
+                        <p class="text-16 font-fs-lola-medium leading-20 ">Keytar McSweeney's Williamsburg, readymade
+                            leggings try-hard 90's street art letterpress
+                            hoodie occupy Wes Anderson Banksy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-text-container flex flex-col md:flex-row lg:container">
+                <div class="container-div flex-1 text-center px-20 pb-36 relative">
+                    <img src="https://i.ibb.co/mGZSLfd/Bitmap-1.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-420 lg:-mt-57" alt="..">
+                    <div class="middle-div text-16 text-left text-white">
+                        <!-- vertical border -->
+                        <div class="vertical-border"></div>
+                        <h2 class="mt-14 mb-21">DID YOU KNOW </h2>
+                        <p class="text-16 font-fs-lola-medium leading-20 ">Keytar McSweeney's Williamsburg, readymade
+                            leggings try-hard 90's street art letterpress
+                            hoodie occupy Wes Anderson Banksy.</p>
+                    </div>
+                </div>
+                <div class="container-div flex-1 text-center px-20 pb-36 relative">
+                    <img src="https://i.ibb.co/mXRCGPZ/Bitmap-2.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-363" alt="..">
+                    <div class="middle-div text-16 text-left text-white">
+                        <!-- vertical border -->
+                        <div class="vertical-border"></div>
+                        <h2 class="mt-14 mb-21">DID YOU KNOW </h2>
+                        <p class="text-16 font-fs-lola-medium leading-20 ">Keytar McSweeney's Williamsburg, readymade
+                            leggings try-hard 90's street art letterpress
+                            hoodie occupy Wes Anderson Banksy.</p>
+                    </div>
+                </div>
+                <div class="container-div flex-1 text-center px-20 pb-36 relative">
+                    <img src="https://i.ibb.co/c6J455L/Bitmap-3.png"
+                        class="object-cover rounded-10 h-220 w-full lg:h-420 lg:-mt-57" alt="..">
+                    <div class="middle-div text-16 text-left text-white">
+                        <!-- vertical border -->
+                        <div class="vertical-border"></div>
+                        <h2 class="mt-14 mb-21">DID YOU KNOW </h2>
+                        <p class="text-16 font-fs-lola-medium leading-20 ">Keytar McSweeney's Williamsburg, readymade
+                            leggings try-hard 90's street art letterpress
+                            hoodie occupy Wes Anderson Banksy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <p class="font-fs-lola-medium text-center text-white text-16 cursor-pointer">Do you need more </p>
+            <img class="cursor-pointer" src="https://i.ibb.co/Sv7XGHW/left-arrow-2.png" alt="down arrow">
+        </div>
+    </div>
+
+</section>
+<section class="capsules pt-48">
+    <div class="container mx-auto">
+        <!-- vertical border -->
+        <div class="vertical-border"></div>
+
+        <div class="font-fs-lola-bold text-center text-white">
+            <p class="text-12 pb-14 pt-8 uppercase">Capsules</p>
+            <p class="font-fs-lola-bold text-30 lg:text-40">McSweeney's <br class="block md:hidden"> Williamsburg,<br>
+                readymade leggings try-hard <br class="hidde md:block">
+                90's street art</p>
+        </div>
+        <!-- horizontal border -->
+        <div class="horizontal-border"></div>
+
+        <div class="capsules__container lg:flex">
+            <div class="text-center pb-27 rounded-8">
+                <img class="h-436 lg:h-600" src="https://i.ibb.co/mXRCGPZ/Bitmap-2.png" alt="">
+            </div>
+            <div class="mx-20 lg:ml-29">
+                <div class="text-30 text-white hidden lg:block">
+                    <p> Readymade leggings <br> try-hard 90's street art</p>
+                    <!-- horizontal small border -->
+                    <div class="small-horizontal-border"></div>
+                </div>
+                <div class="flex my-16 bg-white rounded-8">
+                    <div
+                        class="cursor-pointer bg-green-dark rounded-full h-58 w-58 flex items-center justify-center my-16 ml-12">
+                        <img src="https://i.ibb.co/8mc0P50/Triangle.png" alt="Triangle">
+                    </div>
+                    <div class="w-4/5 pl-12 pt-11">
+                        <p class="text-14 text-grey-light font-fs-lola">12 min</small>
+                            <p class="text-15 leading-18 font-fs-lola">McSweeney's Williamsburg, readymade leggings
+                                try-hard
+                                90's street
+                                art
+                            </p>
+                    </div>
+                </div>
+                <div class="flex my-16 bg-white rounded-8">
+                    <div
+                        class="cursor-pointer bg-green-dark rounded-full h-58 w-58 flex items-center justify-center my-16 ml-12">
+                        <img src="https://i.ibb.co/8mc0P50/Triangle.png" alt="Triangle">
+                    </div>
+                    <div class="w-4/5 pl-12 pt-11">
+                        <p class="text-14 text-grey-light font-fs-lola">12 min</small>
+                            <p class="text-15 leading-18 font-fs-lola">McSweeney's Williamsburg, readymade leggings
+                                try-hard
+                                90's street
+                                art
+                            </p>
+                    </div>
+                </div>
+                <div class="flex my-16 bg-white rounded-8">
+                    <div
+                        class="cursor-pointer bg-green-dark rounded-full h-58 w-58 flex items-center justify-center my-16 ml-12">
+                        <img src="https://i.ibb.co/8mc0P50/Triangle.png" alt="Triangle">
+                    </div>
+                    <div class="w-4/5 pl-12 pt-11">
+                        <p class="text-14 text-grey-light font-fs-lola">12 min</small>
+                            <p class="text-15 leading-18 font-fs-lola">McSweeney's Williamsburg, readymade leggings
+                                try-hard
+                                90's street
+                                art
+                            </p>
+                    </div>
+                </div>
+                <div class="flex my-16 bg-white rounded-8">
+                    <div
+                        class="cursor-pointer bg-green-dark rounded-full h-58 w-58 flex items-center justify-center my-16 ml-12">
+                        <img src="https://i.ibb.co/8mc0P50/Triangle.png" alt="Triangle">
+                    </div>
+                    <div class="w-4/5 pl-12 pt-11">
+                        <p class="text-14 text-grey-light font-fs-lola">12 min</small>
+                            <p class="text-15 leading-18 font-fs-lola">McSweeney's Williamsburg, readymade leggings
+                                try-hard
+                                90's street
+                                art
+                            </p>
+                    </div>
+                </div>
+                <div class="text-center mt-19">
+                    <p class="font-fs-lola-medium text-center text-white text-16 cursor-pointer">Do you need more </p>
+                    <img class="cursor-pointer" src="https://i.ibb.co/Sv7XGHW/left-arrow-2.png" alt="down arrow">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<section class="testify">
+    <div class="container mx-auto">
+        <!-- vertical border -->
+        <div class="vertical-border"></div>
+
+        <div class="font-fs-lola-bold text-center text-white">
+            <p class="text-12 pb-14 pt-8 uppercase">100 sec to testify</p>
+            <p class="font-fs-lola-bold text-30 lg:text-40">McSweeney's <br class="block md:hidden"> Williamsburg,<br>
+                readymade leggings try-hard <br class="hidde md:block">
+                90's street art</p>
+        </div>
+        <!-- horizontal border -->
+        <div class="horizontal-border"></div>
+
+        <!-- sm testify block  -->
+        <div class="lg:hidden">
+            <div class="sm-scrolling-wrapper mb-28">
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src=" https://i.ibb.co/D9jqvCK/pic2.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/82tRCQN/pic3.png" alt="pic3"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wrTKDT2/pic4.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/HGny4WJ/pic5.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src=" https://i.ibb.co/D9jqvCK/pic2.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/82tRCQN/pic3.png" alt="pic3"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wrTKDT2/pic4.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/HGny4WJ/pic5.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src=" https://i.ibb.co/D9jqvCK/pic2.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/82tRCQN/pic3.png" alt="pic3"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wrTKDT2/pic4.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/HGny4WJ/pic5.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src=" https://i.ibb.co/D9jqvCK/pic2.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/82tRCQN/pic3.png" alt="pic3"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/wrTKDT2/pic4.png" alt="pic2"></div>
+                <div class="testifier w-67 h-67 mx-3"><img src="https://i.ibb.co/HGny4WJ/pic5.png" alt="pic2"></div>
+            </div>
+
+            <div class="relative mx-20">
+                <img src="https://i.ibb.co/vQVLCbr/Bitmap.png" class="rounded-16" alt="">
+                <div class="testify__inside-pic bg-white rounded-16 ">
+                    <div class="flex py-12 px-12">
+                        <img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1">
+                        <div class="pl-13 pt-12">
+                            <p class="text-green-dark font-fs-lola-bold text-16 ">Issam EL ALAOUI</p>
+                            <p class="text-13 text-grey-lighter">McSweeney's Williamsburg, readymade leggings try-hard
+                                90's
+                                street
+                                art </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- lg testify block  -->
+        <div class="hidden container mx-auto lg:block lg:flex lg:justify-between">
+            <div class="relative mb-28">
+                <div class="testify-img-1"><a href="#"><img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1"></a>
+                </div>
+                <div class="testify-img-2"><img src=" https://i.ibb.co/D9jqvCK/pic2.png" alt="pic2"></div>
+                <div class="testify-img-3"><img src="https://i.ibb.co/82tRCQN/pic3.png" alt="pic3"></div>
+                <div class="testify-img-4"><img src="https://i.ibb.co/wrTKDT2/pic4.png" alt="pic2"></div>
+                <div class="testify-img-5"><img src="https://i.ibb.co/HGny4WJ/pic5.png" alt="pic2"></div>
+                <div class="testify-img-6"><img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1"></div>
+                <div class="testify-img-7"><img src=" https://i.ibb.co/D9jqvCK/pic2.png" alt="pic2"></div>
+                <div class="testify-img-8"><img src="https://i.ibb.co/82tRCQN/pic3.png" alt="pic3"></div>
+                <div class="testify-img-9"><img src="https://i.ibb.co/wrTKDT2/pic4.png" alt="pic2"></div>
+                <div class="testify-img-10"><img src="https://i.ibb.co/HGny4WJ/pic5.png" alt="pic2"></div>
+            </div>
+
+            <div class="relative">
+                <img src="https://i.ibb.co/vQVLCbr/Bitmap.png" class="rounded-16" alt="">
+                <div class="testify__inside-pic bg-white rounded-16 ">
+                    <div class="flex py-12 px-12">
+                        <img src="https://i.ibb.co/wR53wvL/pic1.png" alt="pic1">
+                        <div class="pl-13 pt-12">
+                            <p class="text-green-dark font-fs-lola-bold text-16 ">Issam EL ALAOUI</p>
+                            <p class="text-13 text-grey-lighter">McSweeney's Williamsburg, readymade leggings try-hard
+                                90's
+                                street
+                                art </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="nextEvent pb-76">
+    <!-- vertical border -->
+    <div class="vertical-border"></div>
+
+    <div class="font-fs-lola-bold text-center text-white">
+        <p class="text-12 pb-14 pt-8 uppercase">Our next events</p>
+        <p class="font-fs-lola-bold text-30 lg:text-40">McSweeney's <br class="block md:hidden"> Williamsburg,<br>
+            readymade leggings try-hard <br class="hidde md:block">
+            90's street art</p>
+    </div>
+    <!-- horizontal border -->
+    <div class="horizontal-border"></div>
+
+    <div class="nextEvent__Carousel lg:flex container mx-auto">
+        <div class="relative pb-24 ">
+            <div class="carousel__container-text">
+                <img src="https://i.ibb.co/ZHQYFXT/Bitmap-Copy-6.png" class="rounded-16" alt="">
+                <div class="next__event_date_text rounded-16 bg-white pb-10">
+                    <div class="flex justify-between text-green-dark text-14 py-12 px-12">
+                        <p> Du 12 au 18 janvier 2020</p>
+                        <p>Boucrâa</p>
+                    </div>
+                    <p class="my-10 mx-15">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art
+                        letterpress
+                        hoodie occupy
+                        Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeney's seitan 3 wolf moon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pb-24 ">
+            <div class="carousel__container-text">
+                <img src="https://i.ibb.co/ZHQYFXT/Bitmap-Copy-6.png" class="rounded-16" alt="">
+                <div class="next__event_date_text rounded-16 bg-white pb-10">
+                    <div class="flex justify-between text-green-dark text-14 py-12 px-12">
+                        <p> Du 12 au 18 janvier 2020</p>
+                        <p>Boucrâa</p>
+                    </div>
+                    <p class="my-10 mx-15">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art
+                        letterpress
+                        hoodie occupy
+                        Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeney's seitan 3 wolf moon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pb-24 ">
+            <div class="carousel__container-text">
+                <img src="https://i.ibb.co/ZHQYFXT/Bitmap-Copy-6.png" class="rounded-16" alt="">
+                <div class="next__event_date_text rounded-16 bg-white pb-10">
+                    <div class="flex justify-between text-green-dark text-14 py-12 px-12">
+                        <p> Du 12 au 18 janvier 2020</p>
+                        <p>Boucrâa</p>
+                    </div>
+                    <p class="my-10 mx-15">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art
+                        letterpress
+                        hoodie occupy
+                        Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeney's seitan 3 wolf moon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pb-24 ">
+            <div class="carousel__container-text">
+                <img src="https://i.ibb.co/ZHQYFXT/Bitmap-Copy-6.png" class="rounded-16" alt="">
+                <div class="next__event_date_text rounded-16 bg-white pb-10">
+                    <div class="flex justify-between text-green-dark text-14 py-12 px-12">
+                        <p> Du 12 au 18 janvier 2020</p>
+                        <p>Boucrâa</p>
+                    </div>
+                    <p class="my-10 mx-15">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art
+                        letterpress
+                        hoodie occupy
+                        Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeney's seitan 3 wolf moon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer class="footer bg-green-dark text-center">
+    <div class="container mx-auto lg:flex lg:flex-row-reverse lg:justify-between">
+        <img class="footer__ocp_logo" src="https://i.ibb.co/h289drx/ocp-logo-footer.png" alt="...">
+        <p class="text-16 text-white font-cairo-regular pt-32"> Copyright OCP - 2020</p>
+    </div>
+</footer>
+
+<script src="../js/bundle.js"></script>
+</body>
+
+</html>

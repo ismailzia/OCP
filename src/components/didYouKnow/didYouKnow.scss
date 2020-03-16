@@ -1,0 +1,59 @@
+.didYouKnow {
+	background: url("https://i.ibb.co/d03mT0d/Background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+	background-color: #353636;
+	padding-top: 118px;
+	@screen lg {
+		padding-top: 42px;
+	}
+
+	.vertical-border {
+		width: 2px;
+		height: 60px;
+		color: white;
+		margin: auto;
+		background-color: white;
+	}
+	.horizontal-border {
+		height: 2.02px;
+		width: 29.25px;
+		background-color: #dce0e1;
+		color: white;
+		margin: auto;
+		margin-top: 13px;
+		margin-bottom: 49px;
+	}
+	.img-text-container {
+		.text-center {
+			img {
+				object-fit: cover;
+			}
+		}
+	}
+}
+@screen lg {
+	.container-div:hover,
+	.container-div:hover img {
+		opacity: 0.5;
+	}
+
+	.container-div:hover .middle-div {
+		opacity: 1;
+	}
+
+	.middle-div {
+		transition: 0.5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 47px;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		text-align: center;
+		width: 80%;
+	}
+}
